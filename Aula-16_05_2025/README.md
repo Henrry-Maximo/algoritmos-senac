@@ -11,6 +11,7 @@ pontos ≥ 15 E pontos ≤ 25
 
 // Opção 2: usando NÃO e OU
 NÃO (pontos < 15 OU pontos > 25)
+```
 
 2. **O valor da variável `pontos` não esta no intervalo 2000–5000.**
 
@@ -20,3 +21,4 @@ salario < 2000 OU salario > 5000
 
 // Opção 2: usando NÃO e E
 NÃO (salario ≥ 2000 E salario ≤ 5000)
+```
