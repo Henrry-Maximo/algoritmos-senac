@@ -1,0 +1,9 @@
+<script>
+    preco_fab = parseFloat(window.prompt("Qual o preço de fabricação? "));
+    imposto = preco_fab * 0.35;
+    margem = (preco_fab + imposto) * 0.1;
+    preco_venda = preco_fab + imposto + margem;
+    window.alert("Valor do imposto: R$ " + imposto);
+    window.alert("Margem do revendedor: R$ " + margem);
+    window.alert("Preço de venda: R$ " + preco_venda);
+</script>
